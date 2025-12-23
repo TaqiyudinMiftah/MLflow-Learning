@@ -948,7 +948,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "mlflow", specifier = ">=3.8.0" },
+    { name = "mlflow", specifier = ">=2.9.0" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
 ]
