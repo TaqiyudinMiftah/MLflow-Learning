@@ -1,0 +1,11 @@
+[project]
+name = "mlfow-iris"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mlflow>=3.8.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+]
