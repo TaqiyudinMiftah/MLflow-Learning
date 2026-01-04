@@ -5,6 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
+mlflow.set_tracking_uri("file:./mlruns")
+
 # SET EXPERIMENT (AMAN DI SEMUA VERSI)
 mlflow.set_experiment("iris-classification-rf")
 
@@ -38,7 +40,9 @@ def main():
             input_example=X_test[:5]
         )
 
+        run_id = mlflow.active_run().info.run_id
         print("Accuracy:", acc)
+        print("Run ID:", run_id)
 
 if __name__ == "__main__":
     main()

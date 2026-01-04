@@ -1,0 +1,15 @@
+creation_timestamp: 1766566653173
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1766566653173
+model_id: m-c10cebe5fe8a409e932dff7cf351a73b
+name: iris_classifier
+run_id: e8b4add6a04248f49dd6f2bd19f4600a
+run_link: null
+source: models:/m-c10cebe5fe8a409e932dff7cf351a73b
+status: READY
+status_message: null
+storage_location: file:C:/Adn/Adn Belajar python/MLflow-learning/mlfow-iris/mlruns/783321528906734202/models/m-c10cebe5fe8a409e932dff7cf351a73b/artifacts
+user_id: null
+version: 1

@@ -1,7 +1,8 @@
-aliases: {}
+aliases:
+  champion: '1'
 creation_timestamp: 1766507841488
 deployment_job_id: null
 deployment_job_state: null
 description: null
-last_updated_timestamp: 1766507841488
+last_updated_timestamp: 1766566655459
 name: iris_classifier

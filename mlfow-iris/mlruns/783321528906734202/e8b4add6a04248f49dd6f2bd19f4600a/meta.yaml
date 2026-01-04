@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Adn/Adn Belajar python/MLflow-learning/mlfow-iris/mlruns/783321528906734202/e8b4add6a04248f49dd6f2bd19f4600a/artifacts
+end_time: 1766566634806
+entry_point_name: ''
+experiment_id: '783321528906734202'
+lifecycle_stage: active
+run_id: e8b4add6a04248f49dd6f2bd19f4600a
+run_name: rf-baseline-v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766566626744
+status: 3
+tags: []
+user_id: taqiy
