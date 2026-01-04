@@ -1,6 +1,8 @@
 import mlflow
 
-RUN_ID = "3b923996e4f7448fa7e542076e40bea9"
+mlflow.set_tracking_uri("file:./mlruns")
+
+RUN_ID = "e8b4add6a04248f49dd6f2bd19f4600a"
 MODEL_NAME = "iris_classifier"
 
 model_uri = f"runs:/{RUN_ID}/model"
