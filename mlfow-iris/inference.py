@@ -1,7 +1,10 @@
+import mlflow
 import mlflow.pyfunc
 import pandas as pd
 
-MODEL_URI = "runs:/3b923996e4f7448fa7e542076e40bea9/model"
+mlflow.set_tracking_uri("file:./mlruns")
+
+MODEL_URI = "models:/iris_classifier@champion"
 
 model = mlflow.pyfunc.load_model(MODEL_URI)
 
