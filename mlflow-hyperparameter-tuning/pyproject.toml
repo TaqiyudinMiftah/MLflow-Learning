@@ -1,0 +1,27 @@
+[project]
+name = "mlflow-hyperparameter-tuning"
+version = "0.1.0"
+description = "Learning hyperparameter tuning with MLflow"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "mlflow>=2.10.0",
+    "scikit-learn>=1.3.0",
+    "optuna>=3.5.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "plotly>=5.18.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0.0",
+    "ipykernel>=6.25.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
